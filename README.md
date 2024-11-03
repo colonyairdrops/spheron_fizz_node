@@ -80,9 +80,9 @@ chmod +x /root/fizzup-v1.0.1.sh
 ```
 docker compose -f ~/.spheron/fizz/docker-compose.yml logs -f
 ```
-or
+## Stop docker container
 ```
-docker-compose -f ~/.spheron/fizz/docker-compose.yml logs -f
+docker-compose -f ~/.spheron/fizz/docker-compose.yml down
 ```
 
 ![image](https://github.com/user-attachments/assets/654ba484-14a2-4994-9a88-bdc10480b327)
